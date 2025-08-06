@@ -3,7 +3,9 @@ import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex flex-col md:flex-row items-center justify-center px-4 sm:px-12 md:px-32 py-16 bg-gradient-to-br from-white to-blue-50">
+    <section className="min-h-screen flex flex-col md:flex-row items-center justify-center px-4 sm:px-16 md:px-36 py-8 bg-gradient-to-br from-white to-blue-50 gap-12 md:gap-0"
+      style={{ marginTop: "-48px" }}
+    >
       {/* Left Side */}
       <motion.div
         className="w-full md:max-w-3xl text-center md:text-left space-y-10 order-2 md:order-1"
@@ -15,12 +17,14 @@ const Hero = () => {
           Hi, I'm <span className="text-blue-600">Shahriar Zim</span> 👋
         </h1>
 
-        <div className="mt-6 text-xl sm:text-2xl md:text-3xl text-gray-700 h-[56px]">
+        <div className="mt-8 text-xl sm:text-2xl md:text-3xl text-gray-700 h-[56px]">
           <Typewriter
             options={{
               strings: [
                 "Frontend Alchemist ✨",
                 "React Wizard 🔮",
+                "Backend Sorcerer 🧙‍♂️",
+                "Python Hunter 🐍",
                 "Design + Code = ❤️",
                 "Your Next Developer 🚀",
                 "Building the Future, One Line of Code at a Time 🌍",
@@ -34,11 +38,11 @@ const Hero = () => {
           />
         </div>
 
-        <p className="mt-6 text-lg md:text-xl text-gray-600">
+        <p className="mt-8 text-lg md:text-xl text-gray-600">
           Let's build something bold, beautiful, and <span className="italic font-semibold">uniquely yours</span>.
         </p>
 
-        <div className="mt-12 flex flex-col sm:flex-row justify-center md:justify-start gap-6 sm:gap-10">
+        <div className="mt-14 flex flex-col sm:flex-row justify-center md:justify-start gap-6 sm:gap-10">
           <motion.a
             whileHover={{ scale: 1.08 }}
             whileTap={{ scale: 0.97 }}
@@ -60,7 +64,7 @@ const Hero = () => {
 
       {/* Right Side */}
       <motion.div
-        className="w-full flex justify-center mb-12 md:mb-0 md:block md:w-1/3 order-1 md:order-2 md:justify-end md:pl-16"
+        className="w-full flex justify-center mb-10 md:mb-0 md:block md:w-1/3 order-1 md:order-2 md:justify-end md:pl-20"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5, duration: 1 }}
