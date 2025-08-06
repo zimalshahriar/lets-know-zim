@@ -24,7 +24,7 @@ const Contact = () => {
           </motion.a>
           <motion.a
             whileHover={{ scale: 1.1 }}
-            href="https://www.linkedin.com/in/your-profile" // replace
+            href="https://www.linkedin.com/in/shahriar-zim-299b58375/" // replace
             target="_blank"
             className="text-blue-600 text-2xl hover:text-blue-800"
           >
@@ -32,7 +32,7 @@ const Contact = () => {
           </motion.a>
           <motion.a
             whileHover={{ scale: 1.1 }}
-            href="mailto:your@email.com" // replace
+            href="mailto:alshahriarzim@gmail.com"
             className="text-blue-600 text-2xl hover:text-blue-800"
           >
             <FaEnvelope />
@@ -41,7 +41,7 @@ const Contact = () => {
 
         <motion.a
           whileHover={{ scale: 1.05 }}
-          href="/Zim_Resume.pdf" // replace with your actual resume path
+          href="/Résumé of Shahriar Zim.pdf" // replace with your actual resume path
           download
           className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition text-lg"
         >

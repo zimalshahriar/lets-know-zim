@@ -21,7 +21,7 @@ const Footer = () => {
             <FaGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/your-link" // replace this
+            href="https://www.linkedin.com/in/shahriar-zim-299b58375/" // replace this
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-600 transition"
@@ -29,7 +29,7 @@ const Footer = () => {
             <FaLinkedin />
           </a>
           <a
-            href="mailto:your@email.com" // replace this
+            href="mailto:alshahriarzim@gmail.com" // replace this
             className="hover:text-blue-600 transition"
           >
             <FaEnvelope />

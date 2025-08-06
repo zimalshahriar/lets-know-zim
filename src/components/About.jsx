@@ -7,6 +7,9 @@ import {
   FaReact,
   FaPython,
   FaPhp,
+  FaGithub,
+  FaFire,
+  FaNode,
 } from "react-icons/fa";
 import { SiTailwindcss, SiDjango, SiMysql } from "react-icons/si";
 
@@ -20,6 +23,9 @@ const skills = [
   { name: "PHP", icon: <FaPhp className="text-indigo-300" />, description: "Server-side scripting." },
   { name: "SQL", icon: <SiMysql className="text-blue-400" />, description: "Relational data management." },
   { name: "Django", icon: <SiDjango className="text-green-400" />, description: "Python-based web framework." },
+  { name: "Git", icon: <FaGithub className="text-gray-600" />, description: "Version control & collaboration." },
+  { name: "node.js", icon: <FaNode className="text-green-400" />, description: "JavaScript runtime for server-side." },
+  { name: "Firebase", icon: <FaFire className="text-orange-500" />, description: "Real-time database & authentication." },
 ];
 
 const About = () => {
